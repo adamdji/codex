@@ -25,7 +25,7 @@
 - `<kbd>` - Represents user input, typically monospace
 - `<samp>` - Program output
 - `<pre>` - Preserve whitespace
-- `<var>` - Definte a variable in a programming context
+- `<var>` - Define a variable in a programming context
 
 ### `<a>`
 
@@ -128,6 +128,7 @@
 ```html
 <form action="/action_page.php" target="_blank" method="PUT" autocomplete="false" novalidate="true">
     <fieldset>
+        <legend>Hello World</legend>
         <input type="radio"name="gender" value="male">
         <label for="male">Male</label><br>
 
