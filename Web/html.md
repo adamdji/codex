@@ -6,7 +6,7 @@
 - `<blockquote cite="citation.com">My citation</blockquote>` - Paragraph block quote
 - `<abbr title="HW">Hello World!</abbr>` - Abbreviation
 - `<cite>Macbool</cite>` - Citation name
-- `<dfn>Black Hole</dfn>` - Definining instance of a new term
+- `<dfn>Black Hole</dfn>` - Defining instance of a new term
 - `<address>742 Evergreen Terrace</address>` - Block to contain address info (email + physical)
 - `<del>` - Text that was deleted from a document (strikethrough)
 - `<ins>` - Text that has been inserted into a document (italics)

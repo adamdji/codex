@@ -54,7 +54,7 @@
 
 ## Networking and Content Delivery Services
 
-### Virtal Private Cloud (VPS)
+### Virtual Private Cloud (VPS)
 
 ### Direct Connect
 
@@ -71,5 +71,7 @@
 ### Elastic File System (EFS)
 
 ### S3
+
+> Simple
 
 ### Glacier
