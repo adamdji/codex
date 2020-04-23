@@ -1,1 +1,1 @@
-# FireFox Devtools compendium
+# FireFox DevTools
