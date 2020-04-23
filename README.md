@@ -1,4 +1,4 @@
-# codex
+# Codex
 
 Markdown Notes for Various Languages and Technologies
 
