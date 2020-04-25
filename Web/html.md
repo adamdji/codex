@@ -48,6 +48,9 @@
 <meta name="author" content="John Doe">
 <meta name="keywords" content="HTML, CSS, XML, JavaScript">
 <meta http-equiv="refresh" content="30">
+<meta http-equiv="robots" content="nofollow">
+<meta http-equiv="pragma" content="no-cache"> <!-- Do not cache page -->
+<meta http-equiv="expires" content="Fri, 04, Apr 2014 23:59:59 GMT"> <!-- Do not cache page -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
