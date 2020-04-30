@@ -1,4 +1,4 @@
-# AWS Notes
+# AWS
 
 ## Fundamentals
 

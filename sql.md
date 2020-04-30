@@ -1,1 +1,1 @@
-# SQL Advanced and Obscure Concepts
+# SQL

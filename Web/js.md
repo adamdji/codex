@@ -1,4 +1,4 @@
-# JavaScript Advanced and Obscure Concepts
+# JavaScript
 
 ## Vanilla
 
@@ -14,4 +14,4 @@
 
 ## Angular
 
-## Webassembly
+## WebAssembly

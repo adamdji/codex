@@ -1,1 +1,0 @@
-# Simple Object Access Protocol

@@ -1,4 +1,4 @@
-# HTML Advanced and Obscure Concepts
+# HTML
 
 ## Semantic Tags and Attributes
 
