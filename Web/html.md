@@ -182,3 +182,6 @@
 4. Set `ondrop` to event to handle the drop event.
 
 > Call prevent default in each method (except `drag`)
+
+
+## Accessibility

@@ -16,3 +16,20 @@
 
 - Light text on dark background, increase height between lines and weight of the font to make it easier to read
 - For long spans of text reducing contrast helps readability
+
+## Font
+
+- `text-transform` UPPER, lower, Capitalize
+- `text-decoration` underline, overline, line-through, blink
+
+### Leading
+
+> term use for the vertical space between lines of text.
+
+- `line`
+
+### `@font-face`
+
+- use a font even if it is not installed
+- `src` path to the font
+- `font-family` name of the font for the rest of the style sheet
