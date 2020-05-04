@@ -1,4 +1,16 @@
+<!-- omit in toc -->
 # FireFox DevTools
+
+<!-- omit in toc -->
+## Index
+
+- [Page Inspector](#page-inspector)
+  - [Styling](#styling)
+- [Console](#console)
+- [Debugger](#debugger)
+- [Network Monitor](#network-monitor)
+
+---
 
 ## [Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 
@@ -26,15 +38,21 @@
 - `SHIFT + Click` colored dot to change representation of color
 - Can use arrow and page up/down to increase/decrease numeric rules while editing
 
+---
+
 ## Console
 
 - use `$0` to get the currently selected element
+
+---
 
 ## Debugger
 
 - Search for file name with `Ctrl + P` can also look for function definitions with `@`
 - Pretty Print minified code with `{ }` icon.
 - Can set URL breakpoints for requests.
+
+---
 
 ## Network Monitor
 
