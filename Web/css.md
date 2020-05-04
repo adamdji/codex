@@ -1,5 +1,13 @@
 # CSS
 
+## Index
+
+---
+
+## Reset & Normalize
+
+> Normalize attempts to standardize css across all browsers while reset makes each look un-styled
+
 ## Selectors
 
 - `li > a` - direct child
@@ -11,11 +19,6 @@
 - `[input~="check"]` - elements with an attribute that contains the word
 - `[input^="check"]` - elements with an attribute that begins with
 - `[input$~"check"]` - elements with an attribute that ends with
-
-## Tips
-
-- Light text on dark background, increase height between lines and weight of the font to make it easier to read
-- For long spans of text reducing contrast helps readability
 
 ## Font
 
@@ -33,3 +36,8 @@
 - use a font even if it is not installed
 - `src` path to the font
 - `font-family` name of the font for the rest of the style sheet
+
+## Design Tips / Tricks
+
+- Light text on dark background, increase height between lines and weight of the font to make it easier to read
+- For long spans of text reducing contrast helps readability

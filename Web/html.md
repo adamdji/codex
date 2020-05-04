@@ -1,5 +1,11 @@
 # HTML
 
+## Core HTML5
+
+### Legacy Support
+
+> `<!--[if lt IE 9]<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]>-->`
+
 ## Semantic Tags and Attributes
 
 - `<q>Hello World!</q>` - Single Line Quote
@@ -182,6 +188,5 @@
 4. Set `ondrop` to event to handle the drop event.
 
 > Call prevent default in each method (except `drag`)
-
 
 ## Accessibility
