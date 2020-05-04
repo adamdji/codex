@@ -1,10 +1,28 @@
+<!-- omit in toc -->
 # HTML
 
-## Core HTML5
+<!-- omit in toc -->
+## Index
 
-### Legacy Support
-
-> `<!--[if lt IE 9]<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]>-->`
+- [Semantic Tags and Attributes](#semantic-tags-and-attributes)
+- [`<head>`](#head)
+  - [`<meta>`](#meta)
+  - [`<base>`](#base)
+- [Images](#images)
+  - [`<figure>`](#figure)
+  - [`<map>`](#map)
+  - [`<picture>`](#picture)
+  - [JPEG](#jpeg)
+  - [PNG](#png)
+- [Tables](#tables)
+- [Lists](#lists)
+- [Iframe](#iframe)
+- [Forms](#forms)
+  - [Input](#input)
+- [APIs](#apis)
+  - [Drag and Drop](#drag-and-drop)
+- [Accessibility](#accessibility)
+- [Tips and Tricks](#tips-and-tricks)
 
 ## Semantic Tags and Attributes
 
@@ -33,6 +51,7 @@
 - `<pre>` - Preserve whitespace
 - `<var>` - Define a variable in a programming context
 
+<!-- omit in toc -->
 ### `<a>`
 
 1. `mailto:mail@example.com`
@@ -132,6 +151,7 @@
 
 ## Forms
 
+<!-- omit in toc -->
 ### Example
 
 ```html
@@ -160,11 +180,12 @@
 </form>
 ```
 
-## Input
+### Input
 
 > Multitude of input types (color, datetime-local, file, month, range, reset, search, tel, time, url)
 
-### Attributes
+<!-- omit in toc -->
+#### Attributes
 
 - Checked
 - disabled
@@ -178,9 +199,9 @@
 
 ---
 
-## API's
+## APIs
 
-## Drag and Drop
+### Drag and Drop
 
 1. Set `draggable` attribute on an element to `true`; for any element
 2. Set `ondragstart` attribute to a JS function, use the `event.dataTransfer` object in JS.
@@ -190,3 +211,10 @@
 > Call prevent default in each method (except `drag`)
 
 ## Accessibility
+
+## Tips and Tricks
+
+<!-- omit in toc -->
+### Legacy Support
+
+> `<!--[if lt IE 9]<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![end if]>-->`
