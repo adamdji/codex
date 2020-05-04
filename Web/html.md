@@ -24,6 +24,8 @@
 - [Accessibility](#accessibility)
 - [Tips and Tricks](#tips-and-tricks)
 
+---
+
 ## Semantic Tags and Attributes
 
 - `<q>Hello World!</q>` - Single Line Quote
@@ -210,7 +212,11 @@
 
 > Call prevent default in each method (except `drag`)
 
+---
+
 ## Accessibility
+
+---
 
 ## Tips and Tricks
 
