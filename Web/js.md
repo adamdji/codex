@@ -4,26 +4,24 @@
 <!-- omit in toc -->
 ## Index
 
-- [Vanilla](#vanilla)
-  - [DOM](#dom)
+- [Core](#core)
+- [DOM](#dom)
 - [Web API's](#web-apis)
-- [TypeScript](#typescript)
 - [jQuery](#jquery)
 - [WebAssembly](#webassembly)
+- [Security](#security)
 
 ---
 
-## Vanilla
+## Core
 
-### DOM
+---
+
+## DOM
 
 ---
 
 ## Web API's
-
----
-
-## TypeScript
 
 ---
 
@@ -32,3 +30,12 @@
 ---
 
 ## WebAssembly
+
+---
+
+## Security
+
+<!-- omit in toc -->
+### Secure Context
+
+> `window.isSecureContext` A secure context is a Window or Worker for which there is reasonable confidence that the content has been delivered securely

@@ -7,6 +7,8 @@
 - [Reset & Normalize](#reset--normalize)
 - [Selectors](#selectors)
 - [Font](#font)
+- [Borders](#borders)
+- [Lists](#lists)
 - [Design Tips / Tricks](#design-tips--tricks)
 
 ---
@@ -49,6 +51,14 @@
 - use a font even if it is not installed
 - `src` path to the font
 - `font-family` name of the font for the rest of the style sheet
+
+---
+
+## Borders
+
+---
+
+## Lists
 
 ---
 

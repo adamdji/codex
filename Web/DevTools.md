@@ -51,6 +51,8 @@
 - Search for file name with `Ctrl + P` can also look for function definitions with `@`
 - Pretty Print minified code with `{ }` icon.
 - Can set URL breakpoints for requests.
+- XHR Breakpoints and log points (replace console.log), event breakpoints, DOM mutation
+- Watch expressions on object properties
 
 ---
 
@@ -60,3 +62,7 @@
 - Filter requests to specific domains with `-`
 - See difference of speed with cache vs no cache
 - Import and Export HAR
+- Block specific URLs
+- Filter by content, URL, XHR, WebSockets
+- Filter by properties using keyword and colon `status-code:404`
+- Context menu on a request has multiple features (copy as fetch, resend, save as HAR, fetch in console)

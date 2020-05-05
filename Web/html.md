@@ -4,7 +4,10 @@
 <!-- omit in toc -->
 ## Index
 
-- [Semantic Tags and Attributes](#semantic-tags-and-attributes)
+- [Semantics](#semantics)
+  - [Tags](#tags)
+  - [Best Practices](#best-practices)
+- [Anchor Tag](#anchor-tag)
 - [`<head>`](#head)
   - [`<meta>`](#meta)
   - [`<base>`](#base)
@@ -19,6 +22,9 @@
 - [Iframe](#iframe)
 - [Forms](#forms)
   - [Input](#input)
+- [Web Components](#web-components)
+  - [Shadow DOM](#shadow-dom)
+  - [Templates](#templates)
 - [APIs](#apis)
   - [Drag and Drop](#drag-and-drop)
 - [Accessibility](#accessibility)
@@ -26,7 +32,9 @@
 
 ---
 
-## Semantic Tags and Attributes
+## Semantics
+
+### Tags
 
 - `<q>Hello World!</q>` - Single Line Quote
 - `<blockquote cite="citation.com">My citation</blockquote>` - Paragraph block quote
@@ -43,7 +51,7 @@
 - `<nav>` - Defines a container for navigation links
 - `<section>` - Defines a section in a document
 - `<article>` - Defines an independent self-contained article
-- `<aside>` - Defines content aside from the content (like a sidebar)
+- `<aside>` - Defines content aside from the content
 - `<footer>` - Defines a footer for a document or a section
 - `<details>` - Defines additional details
 - `<summary>` - Defines a heading for the `<details>` element
@@ -53,8 +61,13 @@
 - `<pre>` - Preserve whitespace
 - `<var>` - Define a variable in a programming context
 
-<!-- omit in toc -->
-### `<a>`
+### Best Practices
+
+-
+
+---
+
+## Anchor Tag
 
 1. `mailto:mail@example.com`
 2. `target="_blank` → new tab
@@ -198,6 +211,14 @@
 - placeholder
 - autofocus
 - autocomplete
+
+---
+
+## Web Components
+
+### Shadow DOM
+
+### Templates
 
 ---
 
