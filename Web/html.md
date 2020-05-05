@@ -23,8 +23,10 @@
 - [Forms](#forms)
   - [Input](#input)
 - [Web Components](#web-components)
-  - [Shadow DOM](#shadow-dom)
   - [Templates](#templates)
+  - [Imports](#imports)
+  - [Custom Elements](#custom-elements)
+  - [Shadow DOM](#shadow-dom)
 - [APIs](#apis)
   - [Drag and Drop](#drag-and-drop)
 - [Accessibility](#accessibility)
@@ -216,9 +218,15 @@
 
 ## Web Components
 
-### Shadow DOM
-
 ### Templates
+
+> `<template>` tag declares template markup that is not rendered directly onto a webpage
+
+### Imports
+
+### Custom Elements
+
+### Shadow DOM
 
 ---
 
