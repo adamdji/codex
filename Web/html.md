@@ -5,37 +5,27 @@
 ## Index
 
 - [Semantics](#semantics)
-  - [Tags](#tags)
-  - [Best Practices](#best-practices)
 - [Anchor Tag](#anchor-tag)
 - [`<head>`](#head)
   - [`<meta>`](#meta)
-  - [`<base>`](#base)
+  - [`<link>`](#link)
 - [Images](#images)
   - [`<figure>`](#figure)
   - [`<map>`](#map)
   - [`<picture>`](#picture)
-  - [JPEG](#jpeg)
-  - [PNG](#png)
+  - [SVG](#svg)
 - [Tables](#tables)
 - [Lists](#lists)
 - [Iframe](#iframe)
 - [Forms](#forms)
   - [Input](#input)
-- [Web Components](#web-components)
-  - [Templates](#templates)
-  - [Imports](#imports)
-  - [Custom Elements](#custom-elements)
-  - [Shadow DOM](#shadow-dom)
-- [APIs](#apis)
-  - [Drag and Drop](#drag-and-drop)
-- [Accessibility](#accessibility)
 - [Tips and Tricks](#tips-and-tricks)
 
 ---
 
 ## Semantics
 
+<!-- omit in toc -->
 ### Tags
 
 - `<q>Hello World!</q>` - Single Line Quote
@@ -63,9 +53,8 @@
 - `<pre>` - Preserve whitespace
 - `<var>` - Define a variable in a programming context
 
+<!-- omit in toc -->
 ### Best Practices
-
--
 
 ---
 
@@ -84,21 +73,31 @@
 
 > Hold info about the webpage in the `<head>`
 
+- `http-equiv` binds the element to an HTTP Response header.
+
 ```html
 <meta charset="UTF-8">
 <meta name="description" content="Free Web tutorials">
 <meta name="author" content="John Doe">
 <meta name="keywords" content="HTML, CSS, XML, JavaScript">
 <meta http-equiv="refresh" content="30">
-<meta http-equiv="robots" content="nofollow">
+<meta http-equiv="robots" content="nofollow / index, follow">
 <meta http-equiv="pragma" content="no-cache"> <!-- Do not cache page -->
-<meta http-equiv="expires" content="Fri, 04, Apr 2014 23:59:59 GMT"> <!-- Do not cache page -->
+<meta http-equiv="expires" content="Fri, 04, Apr 2014 23:59:59 GMT"> <!-- Do not cache 
+page -->
+<meta http-equiv="Content-Security-Policy" content="default-src https">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+<!-- omit in toc -->
 ### `<base>`
 
 > base url for all relative URLs in a page
+
+### `<link>`
+
+- `rel="home"`: references a home page or the top of some hierarchy.
+- [Preload, Prefetch, Prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
 ---
 
@@ -133,13 +132,7 @@
 </picture>
 ```
 
-### JPEG
-
-- Different Colors
-
-### PNG
-
-- Same Colors
+### SVG
 
 ---
 
@@ -213,37 +206,6 @@
 - placeholder
 - autofocus
 - autocomplete
-
----
-
-## Web Components
-
-### Templates
-
-> `<template>` tag declares template markup that is not rendered directly onto a webpage
-
-### Imports
-
-### Custom Elements
-
-### Shadow DOM
-
----
-
-## APIs
-
-### Drag and Drop
-
-1. Set `draggable` attribute on an element to `true`; for any element
-2. Set `ondragstart` attribute to a JS function, use the `event.dataTransfer` object in JS.
-3. Set `ondragover` on an attribute that can have an item dragged over it to JS function, `preventDefault`
-4. Set `ondrop` to event to handle the drop event.
-
-> Call prevent default in each method (except `drag`)
-
----
-
-## Accessibility
 
 ---
 
