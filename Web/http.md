@@ -97,6 +97,42 @@
 <!-- omit in toc -->
 ### Content Negotiation
 
+-`Accept`: Informs the server about the types of data that can be sent back
+-`Accept-Charset`: encodings client can understand
+-`Accept-Encoding`: Encoding algoirthm used on resource sent back
+
+<!-- omit in toc -->
+### Cookies
+
+-`Cookie`: Contains stored HTTP cookies previously sent by the server
+-`Set-Cookie`: Send cookies from the server to the user-agent
+
+<!-- omit in toc -->
+### DNT
+
+-`DNT` Express user's tracking preference
+-`TK` indicates the tracking status of the corresponding resource.
+
+<!-- omit in toc -->
+### Downloads
+
+-`Content-Disposition`: If the resource transmitted should be displayed inline (default), or handled like a download and browser should present dialog
+
+<!-- omit in toc -->
+### Request Context
+
+-`From`: Internet email address for a human user who controls the requesting UA
+-`Host`: Specifies domain name of the server and TCP port on which the server is listening
+-`Referer`: Address of previous web page from which a link to the currently requested page was followed
+-`Referrer-Policy`: Which referrer information sent in the `Referer` header should be included with requests made
+-`User-Agent`: String that can identify various information about the requesting software UA
+
+<!-- omit in toc -->
+### Response Context
+
+-`Allow`: Lists the set of HTTP request methods supported by a resource
+-`Server`: Contains information about the software used by the origin server to handle the request.
+
 ---
 
 ## CORS
