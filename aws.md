@@ -114,6 +114,4 @@
 
 ### S3
 
-> Simple
-
 ### Glacier

@@ -8,7 +8,6 @@
 - [DOM](#dom)
 - [Web API's](#web-apis)
 - [jQuery](#jquery)
-- [WebAssembly](#webassembly)
 - [Security](#security)
 
 ---
@@ -26,10 +25,6 @@
 ---
 
 ## jQuery
-
----
-
-## WebAssembly
 
 ---
 

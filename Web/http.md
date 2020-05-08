@@ -12,6 +12,7 @@
   - [500](#500)
 - [Headers](#headers)
 - [CORS](#cors)
+- [HTTP/2](#http2)
 
 ---
 
@@ -136,3 +137,5 @@
 ---
 
 ## CORS
+
+## HTTP/2

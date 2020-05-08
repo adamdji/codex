@@ -1,10 +1,13 @@
 <!-- omit in toc -->
-# General Web
+# Web
+
+> Complex web technologies that overlap into different categories but must be together
 
 <!-- omit in toc -->
 ## Index
 
 - [Web Components](#web-components)
+- [Web assembly](#web-assembly)
 - [APIs](#apis)
   - [Drag and Drop](#drag-and-drop)
 - [Accessibility](#accessibility)
@@ -23,6 +26,8 @@
 
 <!-- omit in toc -->
 ### Shadow DOM
+
+## Web assembly
 
 ## APIs
 
