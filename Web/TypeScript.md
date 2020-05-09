@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Typescript
+# TypeScript
 
 <!-- omit in toc -->
 ## Index
