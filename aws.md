@@ -4,7 +4,7 @@
 <!-- omit in toc -->
 ## Index
 
-- [Fundamentals](#fundamentals)
+- [General](#general)
 - [Analytics](#analytics)
   - [Elasticsearch](#elasticsearch)
 - [Security](#security)
@@ -42,7 +42,11 @@
   - [S3](#s3)
   - [Glacier](#glacier)
 
-## Fundamentals
+## General
+
+- Only use Root for billing, and deletion
+- Set alarms to send SNS messages if a billing alarm goes up
+- Secure root and IAM with different types of MFA (i.e. physical code, phyiscal key, virtual code)
 
 ## Analytics
 
@@ -53,6 +57,12 @@
 ## Compute
 
 ### EC2
+
+- [EC2Instances.info](EC2Instances.info) has pricing information.
+- Different types of instances and categories for different workloads (T3, A1)
+- Reserved Instances: Coupon to reduce instance cost by paying upfront, very flexible in timings, but no refunds.
+- Custom security policies for inbound & outbound rules
+- AMI Snapshots to scale up or backup server
 
 ### Lightsail
 
@@ -110,8 +120,14 @@
 
 ### Elastic Block Storage (EBS)
 
+> Primary storage service for EC2
+
 ### Elastic File System (EFS)
 
+> Similar to a NAS; mount a share drive across EC2 instances
+
 ### S3
+
+> Directly share assests to users across URLs
 
 ### Glacier

@@ -134,6 +134,21 @@
 -`Allow`: Lists the set of HTTP request methods supported by a resource
 -`Server`: Contains information about the software used by the origin server to handle the request.
 
+<!-- omit in toc -->
+### Security
+
+-`Content-Security-Policy`: Resources the UA can load for a given page (Helps protect again XSS)
+-`Strict-Transport-Security`: Force HTTPS
+-`Upgrade-Insecure-Requests`: Sends a signal to the server expressing preference for HTTPS
+-`X-Content-Type-Options`: Disables MIME sniffing and forces browser to use the type in `Content-Type`
+-`X-Frame-Options`: Indicates whether the page in a `<iframe>` or similar tag
+
+<!-- omit in toc -->
+-`Alt-Svc`: Alternate ways to reach this service
+-`Retry-After`: How long UA should wait before making a follow up request
+-`X-DNS-Prefetch-Control`: Controls prefetching.
+-`X-UA-Compatible`: Used by IE to signal which document mode to use
+
 ---
 
 ## CORS

@@ -7,7 +7,9 @@
 ## Index
 
 - [Web Components](#web-components)
-- [Web assembly](#web-assembly)
+- [Web Assembly](#web-assembly)
+- [Service Workers](#service-workers)
+- [Web Workers](#web-workers)
 - [APIs](#apis)
   - [Drag and Drop](#drag-and-drop)
 - [Accessibility](#accessibility)
@@ -27,7 +29,19 @@
 <!-- omit in toc -->
 ### Shadow DOM
 
-## Web assembly
+---
+
+## Web Assembly
+
+---
+
+## Service Workers
+
+---
+
+## Web Workers
+
+---
 
 ## APIs
 
