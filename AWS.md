@@ -31,7 +31,7 @@
   - [Systems Manager](#systems-manager)
   - [CloudTrail](#cloudtrail)
 - [Networking and Content Delivery Services](#networking-and-content-delivery-services)
-  - [Virtual Private Cloud (VPS)](#virtual-private-cloud-vps)
+  - [Virtual Private Cloud (VPC)](#virtual-private-cloud-vpc)
   - [Direct Connect](#direct-connect)
   - [Route 53](#route-53)
   - [Elastic Load Balancing](#elastic-load-balancing)
@@ -106,7 +106,9 @@
 
 ## Networking and Content Delivery Services
 
-### Virtual Private Cloud (VPS)
+### Virtual Private Cloud (VPC)
+
+> 
 
 ### Direct Connect
 
@@ -115,6 +117,8 @@
 ### Elastic Load Balancing
 
 ### CloudFront
+
+> Pushes S3 buckets to edge locations for speed and redundancy
 
 ## Storage Services
 
@@ -131,3 +135,5 @@
 > Directly share assests to users across URLs
 
 ### Glacier
+
+> Archival based long term storage solution
