@@ -5,10 +5,11 @@
 ## Index
 
 - [Core](#core)
-  - [Types](#types)
+  - [`Object`](#object)
+  - [Advanced Types](#advanced-types)
   - [Prototypes](#prototypes)
 - [ECMAScript](#ecmascript)
-  - [ES6](#es6)
+  - [ES2015 (ES6)](#es2015-es6)
   - [ES2016-ES2018](#es2016-es2018)
   - [ES2019-ESNext](#es2019-esnext)
 - [DOM](#dom)
@@ -21,20 +22,31 @@
 
 ## Core
 
-### Types
+### `Object`
+
+### Advanced Types
 
 1. `Symbol`: Unique identifier, mainly for object properties
 
 ### Prototypes
 
 > When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype.
-> 
+
+- `__proto__`: Property of an object literal used to set it's prototype, accessor property that exposes `[[Prototype]]`
+- `[[Prototype]]`: Internal property of the actual prototype object used to resolve a property or function along the chain of prototypes
+- `prototype`:
+- `Object.setPrototypeOf()`:
 
 ---
 
 ## ECMAScript
 
-### ES6
+### ES2015 (ES6)
+
+1. Destructuring Assignments
+2. `__proto__` for object literals to set it's prototype
+3. `super()`
+4. Dynamic propterties: Compute property names of objects dynamically `['a' + 'b']: 'z'`
 
 ### ES2016-ES2018
 
@@ -68,18 +80,21 @@
 
 1. `String.prototype.trimStart()` and `String.prototype.trimEnd()`
 2. Optional Catch Binding
-3. `Symbol.description`
-4. Stable `Array.sort()` (TimSort)
+3. `Symbol.description()`
+4. Stable `Array.prototype.sort()` (TimSort)
+5. `Object.fromEntries()`: transforms iterable key value pair into object (Map or Array)
+6. `Array.prototype.flat()` and `Array.prototype.flatMap()`
+7. `Function.prototype.toString()`
 
 <!-- omit in toc -->
 #### ES2020 (ES11)
 
-1. **BigInt**: Incredibly large number, denoted by adding an `n` at the end of a number.
-2. **Dynamic Imports**: import module inside code when needed.
-3. **Nullish Coalescing**: Check if something is `null` or `undefined`, if it is do something else.
-4. **Optional Chaining**: Check deeply nested object properties without exessive if checking, if it does not exist undefined will be returned by the statement. Works with `functions` and `arrays`.
-5. **Promise.allSettled**: Takes in an array of promises and resolves when all settled, res or rej.
-6. **globalThis**: Returns the appropriate global object for the environment
+1. BigInt: Incredibly large number, denoted by adding an `n` at the end of a number.
+2. Dynamic Imports: import module inside code when needed.
+3. Nullish Coalescing: Check if something is `null` or `undefined`, if it is do something else.
+4. Optional Chaining: Check deeply nested object properties without exessive if checking, if it does not exist undefined will be returned by the statement. Works with `functions` and `arrays`.
+5. Promise.allSettled: Takes in an array of promises and resolves when all settled, res or rej.
+6. globalThis: Returns the appropriate global object for the environment
    - `window` for browsers
    - `global` for Node
    - `self` for web workers
