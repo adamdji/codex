@@ -6,6 +6,7 @@
 
 - [Basic Types](#basic-types)
   - [Union & Intersection](#union--intersection)
+  - [Enums](#enums)
 - [Interfaces](#interfaces)
 - [Utility Types](#utility-types)
 - [Advanced Types](#advanced-types)
@@ -18,6 +19,7 @@
 - `primitives`
 - `Array`
 - `tuple`
+- `symbol`
 - `any`: Describe type of variables that we do not know when we are writing. Essentially turns off the type checker. Able to access any property or method of item with no checks. *Top Type*.
 - `never`: Values that never occur, such as return type of a function that always throws an error. Variables can also be `never` if type guards narrow them to having nothing. *Bottom Type*.
 - `unknown`: Type safe version of 'any', will need to be type asserted (or type guarded) to access any properties. *Type Safe Top Type*.
@@ -32,7 +34,6 @@
 > Union type indiciates that a variable could be one or two types, we can only access properties that are common to both types.  
 > Intersection types combine multiple types into one
 
-<!-- omit in toc -->
 ### Enums
 
 > Organize a collection of related values. Compiles down into a mapping, or into constant strings depending on the `const` keyword.
@@ -60,12 +61,11 @@
 - `ConstructorParameters<C>`: Tuple type of all parameter tpypes of a constrctor function (or `never` if `C` is not a function)
 - `ReturnType<F>`: Type of return type for function `F`
 
-
 ## Advanced Types
 
 - `type` creates named types from other types: `type Size = [number, number];`
 - String and numberic literal types specify the exact value a string or number must have
-- Conditional types: 
+- Conditional types
 
 ## General Type System
 
