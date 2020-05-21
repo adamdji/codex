@@ -1,7 +1,9 @@
 <!-- omit in toc -->
-# React
+# Algorithms
 
 <!-- omit in toc -->
 ## Index
+
+- [Fundamentals](#fundamentals)
 
 ## Fundamentals
